@@ -3,11 +3,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { Provider } from "react-redux";
 import { store } from "./store"; 
-import { loadSession } from "./store/slices/authSlice";
+import { restoreSession } from "./store/slices/authSlice";
 import "./styles/global.css";
 
-// restaura sessão ao iniciar
-store.dispatch(loadSession());
+store.dispatch(restoreSession());
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
