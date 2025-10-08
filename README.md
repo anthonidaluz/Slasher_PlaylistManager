@@ -1,4 +1,4 @@
-# Gerenciador de Playlists 🎵
+# Slasher Playlist Manager 🎵
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -9,22 +9,22 @@
 
 ## Sobre o Projeto
 
-[cite_start]Esta aplicação é um **Gerenciador de Playlists** desenvolvido como atividade avaliativa para a unidade curricular de **Tópicos Especiais em Programação** [cite: 4][cite_start], do 8º semestre do curso de Bacharelado em Ciência da Computação no Instituto Federal de Santa Catarina - Câmpus Lages[cite: 1, 2, 8]. [cite_start]O projeto foi orientado pela docente **Drª Lidiane Visintin**[cite: 5].
+Esta aplicação é um **Gerenciador de Playlists** desenvolvido como atividade avaliativa para a unidade curricular de **Tópicos Especiais em Programação**, do 8º semestre do curso de Ciência da Computação no Instituto Federal de Santa Catarina - Câmpus Lages. O projeto foi orientado pela docente **Drª Lidiane Visintin**.
 
-[cite_start]O objetivo principal foi desenvolver uma aplicação web completa utilizando o ecossistema moderno de React[cite: 15], abrangendo desde a autenticação de usuários e gerenciamento de estado global até o consumo de APIs externas e persistência de dados no navegador.
+O objetivo principal foi desenvolver uma aplicação web completa utilizando o ecossistema moderno de React, abrangendo desde a autenticação de usuários e gerenciamento de estado global até o consumo de APIs externas e persistência de dados no navegador.
 
 ## Funcionalidades Principais
 
-[cite_start]A aplicação cumpre todos os requisitos propostos na avaliação[cite: 35], incluindo:
+A aplicação cumpre todos os requisitos propostos na avaliação, incluindo:
 
--   [cite_start][x] **Autenticação de Usuários:** Página de login com validação de e-mail e senha, redirecionando para a home se autenticado[cite: 37, 38].
--   [cite_start][x] **Rotas Protegidas:** Acesso restrito ao dashboard apenas para usuários autenticados, implementado com um componente `PrivateRoute`[cite: 19, 41].
--   [cite_start][x] **Gerenciamento de Estado Global:** Utilização do Redux Toolkit para gerenciar o estado de autenticação, playlists e buscas de forma centralizada[cite: 22, 53].
--   [cite_start][x] **CRUD Completo de Playlists:** Funcionalidades para criar, ler, renomear e excluir playlists, com restrição de acesso por usuário[cite: 20, 31, 46].
--   [cite_start][x] **Persistência de Dados:** As playlists do usuário são salvas no **LocalStorage** [cite: 23, 32][cite_start], e dados temporários da sessão são salvos no **SessionStorage**[cite: 24, 33].
--   [cite_start][x] **Integração com API Externa:** Consumo de dados da API **TheAudioDB** para buscar músicas e listar as mais populares[cite: 21, 34].
--   [cite_start][x] **Busca em Tempo Real:** Interface de busca por artista, álbum ou nome da música que exibe resultados dinamicamente[cite: 29, 56, 57].
--   [cite_start][x] **Interface Reativa e Componentizada:** Layout com feedback visual para o usuário (carregamento, erros) e código bem estruturado em componentes[cite: 60].
+-   [x] **Autenticação de Usuários:** Página de login com validação de e-mail e senha, redirecionando para a home se autenticado.
+-   [x] **Rotas Protegidas:** Acesso restrito ao dashboard apenas para usuários autenticados, implementado com um componente `PrivateRoute`.
+-   [x] **Gerenciamento de Estado Global:** Utilização do Redux Toolkit para gerenciar o estado de autenticação, playlists e buscas de forma centralizada.
+-   [x] **CRUD Completo de Playlists:** Funcionalidades para criar, ler, renomear e excluir playlists, com restrição de acesso por usuário.
+-   [x] **Persistência de Dados:** As playlists do usuário são salvas no **LocalStorage**, e dados temporários da sessão são salvos no **SessionStorage**.
+-   [x] **Integração com API Externa:** Consumo de dados da API **TheAudioDB** para buscar músicas e listar as mais populares.
+-   [x] **Busca em Tempo Real:** Interface de busca por artista, álbum ou nome da música que exibe resultados dinamicamente.
+-   [x] **Interface Reativa e Componentizada:** Layout com feedback visual para o usuário (carregamento, erros) e código bem estruturado em componentes.
 
 ## Tecnologias Utilizadas
 
@@ -44,10 +44,10 @@
 
 ```bash
 # 1. Clone o repositório
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/anthonidaluz/Slasher_PlaylistManager.git
 
 # 2. Navegue até a pasta do projeto
-cd <NOME_DA_PASTA>
+cd Slasher
 
 # 3. Instale as dependências
 npm install
@@ -63,5 +63,10 @@ yarn dev
 ```
 
 ## Autor
+**Aluno** *[Anthoni Liederson da Luz]*
 
-[cite_start]**Aluno**: *[Anthoni Liederson da Luz]* [cite: 6]
+
+
+## Autor
+
+**Aluno**: *[Seu Nome Aqui]*
