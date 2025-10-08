@@ -64,9 +64,3 @@ yarn dev
 
 ## Autor
 **Aluno** *[Anthoni Liederson da Luz]*
-
-
-
-## Autor
-
-**Aluno**: *[Seu Nome Aqui]*
