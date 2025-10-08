@@ -20,10 +20,8 @@ const Register = () => {
     }
 
     try {
-      // 🔹 Registra o usuário
       dispatch(register({ email: email.trim(), password }));
 
-      // 🔹 Faz login automaticamente
       dispatch(login({ email: email.trim(), password }));
 
       navigate("/dashboard");
@@ -36,12 +34,8 @@ const Register = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-slasherRed relative overflow-hidden">
-      {/* 🔹 Fundo com brilho animado */}
       <div className="absolute inset-0 bg-gradient-to-t from-slasherRed/10 via-transparent to-transparent animate-pulseSlow"></div>
-
-      {/* 🔹 Card principal */}
       <div className="relative z-10 bg-gray-900/80 backdrop-blur-md p-10 rounded-2xl shadow-[0_0_40px_rgba(139,0,0,0.25)] w-full max-w-md border border-gray-800 animate-fadeIn">
-        {/* Logo e título */}
         <div className="flex flex-col items-center mb-8">
           <img
             src={SlasherLogo}
@@ -56,7 +50,6 @@ const Register = () => {
           </p>
         </div>
 
-        {/* Inputs */}
         <div className="space-y-5">
           <div>
             <label className="block text-gray-300 text-sm mb-1">Email</label>
@@ -96,7 +89,6 @@ const Register = () => {
             />
           </div>
 
-          {/* Botão de registro */}
           <button
             onClick={handleRegister}
             className="w-full bg-gradient-to-r from-slasherRed to-red-700 hover:from-red-700 hover:to-slasherRedLight 
@@ -105,8 +97,6 @@ const Register = () => {
           >
             Registrar
           </button>
-
-          {/* Link para login */}
           <div className="text-center mt-6">
             <p className="text-gray-400 text-sm">Já tem uma conta?</p>
             <button

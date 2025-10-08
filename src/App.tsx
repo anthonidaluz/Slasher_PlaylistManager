@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Sobre from "./pages/Sobre";
 import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./routes/PrivateRoute";
 
@@ -16,6 +17,7 @@ function App() {
         {/* Rotas públicas */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/sobre" element={<Sobre />} />
 
         {/* Rota protegida */}
         <Route

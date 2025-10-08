@@ -25,10 +25,8 @@ export default function Header() {
       {/* Direita: Navegação */}
       <nav className="flex items-center gap-8">
         {" "}
-        {/* Aumentei o gap para 8 */}
-        {/* Link de navegação com hover sutil */}
         <Link
-          to="/aboutme"
+          to="/sobre"
           className="text-gray-300 hover:text-white transition-colors duration-200"
         >
           <strong>Sobre</strong>
